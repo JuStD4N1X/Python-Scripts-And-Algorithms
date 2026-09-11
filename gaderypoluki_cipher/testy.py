@@ -1,7 +1,7 @@
 import unittest
 from main import encrypt
 
-class TestCaesarCipher(unittest.TestCase):
+class TestGaderypolukiCipher(unittest.TestCase):
 
     def test_encryption_works(self):
         result = encrypt("ROMEO")
